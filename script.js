@@ -13,7 +13,7 @@ function countdown(){
     let oneMin = 60 * 1000;
     let oneHr = 60 * oneMin;
     let oneDay = 24 * oneHr;
-
+    
     let addZeroes = num => num < 10 ? `0${num}` : num;
     
     if(endTime < todayTime){
